@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,900);
+
+
+.fixed_footer{
+background-color: #ffffff36  !important;
+color : white;
+width: 100%;
+height: auto;
+}
+.fixed_footer p{
+    text-align: center;
+    padding: 2% 10%;
+    font-size: 1em;
+    font-weight: 300;
+}
