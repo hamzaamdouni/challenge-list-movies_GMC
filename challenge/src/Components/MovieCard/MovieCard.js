@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './MovieCard.css'
+import Rating from '@material-ui/lab/Rating';
 
 const MovieCard = ({ListMovie, handelName}) => {
     const style = {
@@ -28,6 +29,7 @@ const MovieCard = ({ListMovie, handelName}) => {
                         <li><i className="material-icons"></i></li>
                         <li><i className="material-icons">chat_bubble</i></li>
                     </ul>
+                    <Rating name="size-medium" value={ListMovie.rating} disabled className='Rating'/>
                 </div>
             </div>
             <div className="blur_back bright_back" style={style}/>
